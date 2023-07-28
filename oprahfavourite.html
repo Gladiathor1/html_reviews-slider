@@ -1,0 +1,80 @@
+<body>
+    <style>
+        .oprah-main-container{
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            flex-wrap: wrap;
+        }
+        .oprah-main-container .inner-content{
+            width: 80%;
+            text-align: center;
+            color: white;
+            padding: 40px 0;
+            margin: auto;
+
+        }
+        .oprah-main-container .subheading{
+            margin: 0;
+        }
+        .oprah-main-container .heading{
+            font-size: 40px;
+            margin: 10px 0 20px 0;
+        }
+        .oprah-main-container .para{
+            margin: 0 0 5px 0;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        .oprah-main-container .button{
+            color: black;
+            background-color: white;
+            padding: 10px 15px;
+            font-size: 12px;
+            display: inline-block;
+            margin-top:30px;
+            text-decoration: none;
+        }
+        
+        .oprah-main-container .right-container{
+            flex-basis: 50%;
+        }
+        .oprah-main-container .right-container img{
+            width: 100%;
+        }
+        .oprah-main-container .left-container{
+            flex-basis: 50%;
+            background-color: black;
+            display: flex;
+    align-items: center;
+        }
+        @media only screen and (max-width:767px){
+            .oprah-main-container .inner-content {
+                width: 100%;
+            }
+            .oprah-main-container .left-container{
+            flex-basis: 100%;
+        }
+        .oprah-main-container .right-container{
+            flex-basis: 100%;
+        }
+        }
+    </style>
+    <div class="oprah-main-container">
+        <div class="left-container">
+        <div class="container-width">
+            <div class="inner-content">
+                <p class="subheading"> BOOK YOUR APPOINTMENT NOW</p>
+                <p class="heading">Design Your Organic Sofa</p>
+                <p class="para">Customizable, affordable, and functional
+                    sofas that are easy to clean by just unzipping and throwing right into
+                    the washing machine</p>
+                <a href="#" class="button">SHOP UP TO 20% OFF SOFAS</a>
+            </div>
+        </div>
+        </div>
+        <div class="right-container">
+            <img src="https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png" alt="">
+        </div>
+    </div>
+</body>

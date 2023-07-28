@@ -1,0 +1,195 @@
+<body>
+    <style>
+        body{
+            max-width: 1200px;
+            margin: auto;
+        }
+        .featured-main-container{
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            flex-wrap: wrap;
+        }
+        .featured-main-container .left-side{
+            flex-basis: 70%;
+            background: url("https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png") no-repeat center center / cover;
+
+        }
+        .featured-main-container .left-inner{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 25px 0;
+            margin: auto;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .featured-main-container .right-side{
+            flex-basis: 30%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: stretch;
+            flex-wrap: wrap;
+        }
+        .featured-main-container .right-side div{
+            flex-basis: 49%;
+            height: 30vh;
+        }
+        .featured-main-container .first{
+            background: url("https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png") no-repeat center center / cover;
+            /* height: 50vh; */
+            margin-bottom: 3px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 5px 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .featured-main-container .second{
+            background: url("https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png") no-repeat center center / cover;
+            /* height: 50vh; */
+            margin-bottom: 3px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 5px 0;
+            box-sizing: border-box;
+            text-align: center;
+
+        }
+        .featured-main-container .third{
+            background: url("https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png") no-repeat center center / cover;
+            /* height: 50vh; */
+            margin-top: 3px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 5px 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .featured-main-container .fourth{
+            background: url("https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png") no-repeat center center / cover;
+            /* height: 50vh; */
+            margin-top: 3px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 5px 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .featured-main-container .top1{
+            color: #797663;
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+        .featured-main-container .top2{
+            color: #132815;
+            margin-bottom: 5px;
+            font-size: 60px;
+            margin-top: 0;
+        }
+        .featured-main-container .top3{
+            color: #777776;
+            font-size: 24px;
+            margin: 0;
+        }
+        .featured-main-container .bottom .button{
+            text-decoration: none;
+            background-color: #797663;
+            color: white;
+            padding: 15px 50px;
+            letter-spacing: 3.5px;
+            font-size: 20px;
+        }
+        .featured-main-container .right-top-text{
+            color: #777776;
+            font-size: 20px;
+            padding: 0 10px;
+        }
+        .featured-main-container .right-bottom-text{
+            color: #777776; 
+            font-size: 16px;
+        }
+        @media only screen and (max-width: 1024px){
+            .featured-main-container .right-top-text {
+                font-size: 16px;
+            }
+        }
+        @media only screen and (max-width:1023px) {
+            .featured-main-container .left-side{
+            flex-basis: 100%;
+        }
+        .featured-main-container .right-side{
+            flex-basis: 100%;
+        }
+        .featured-main-container .top3 {
+            margin-bottom: 190px;
+        }
+        }
+        
+        @media only screen and (max-width:425px) {
+            .featured-main-container .top1 {
+                font-size: 24px;
+            }
+            .featured-main-container .top2 {
+                font-size: 45px;
+            }
+            .featured-main-container .left-inner {
+                width: 100%;
+
+            }
+            .featured-main-container .top3 {
+                font-size: 18px;
+            }
+            .featured-main-container .bottom .button {
+                padding: 15px 35px;
+                letter-spacing: 2.5px;
+                font-size: 16px;
+            }
+            .featured-main-container .right-top-text {
+                color: #777776;
+                font-size: 16px;
+                padding: 0 30px;
+            }
+        }
+        @media only screen and (max-width: 320px){
+            .featured-main-container .bottom .button {
+                padding: 15px 20px;
+            }
+        }
+
+    </style>
+    <div class="featured-main-container">
+        <div class="left-side">
+            <div class="left-inner">
+                <div class="top">
+                    <p class="top1">IT'S FINALLY HERE</p>
+                    <p class="top2">Semi-Annual Sale</p>
+                    <p class="top3">Limited time deals you wont want to miss.</p>
+                
+                </div>
+                <div class="bottom"><a class="button" href="">GET UPTO 25% SITEWIDE</a></div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="first">
+                <p class="right-top-text">"LIKE SLEEPING ON A <strong>CLOUD</strong>"</p>
+                <p class="right-bottom-text">BEDDING</p>
+            </div>
+            <div class="second">
+                <p class="right-bottom-text">WOMEN'S</p>
+            </div>
+            <div class="third">
+                <p class="right-bottom-text">BATH</p>
+            </div>
+            <div class="fourth">
+                <p class="right-bottom-text">BEST SELLERS</p>
+            </div>
+        </div>
+    </div>
+</body>

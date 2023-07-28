@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            max-width: 994px;
+            margin: auto;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="shop-collection-ba">
+        <h2>Shop Our Collection</h2>
+        <div class="shop-collection-grid">
+            <div class="shop-collection-item">
+                <img src="https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png" alt="Review Image">
+                <a href="#">Up to 40% off living room furnityre</a>
+            </div>
+
+            <div class="shop-collection-item">
+                <img src="https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png" alt="Review Image">
+                <a href="#">Up to 40% off living room furnityre</a>
+            </div>
+
+            <div class="shop-collection-item">
+                <img src="https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png" alt="Review Image">
+                <a href="#">Up to 40% off living room furnityre</a>
+            </div>
+            <div class="shop-collection-item">
+                <img src="https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png" alt="Review Image">
+                <a href="#">Up to 40% off living room furnityre</a>
+            </div>
+
+            <div class="shop-collection-item">
+                <img src="https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png" alt="Review Image">
+                <a href="#">Up to 40% off living room furnityre</a>
+            </div>
+
+            <div class="shop-collection-item">
+                <img src="https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png" alt="Review Image">
+                <a href="#">Up to 40% off living room furnityre</a>
+            </div>
+
+        </div>
+    </section>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        .shop-collection-ba {
+            font-family: 'Roboto', sans-serif;
+        }
+        .shop-collection-ba h2{
+            text-align: center;
+        }
+
+        .shop-collection-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 10px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .shop-collection-item>img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .shop-collection-item>a {
+            color: #000;
+            font-size: 12px;
+        }
+        @media only screen and (max-width: 1024px){
+            .shop-collection-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media only screen and (max-width: 767px){
+            .shop-collection-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+
+</body>
+
+</html>

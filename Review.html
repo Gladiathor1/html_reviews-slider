@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futon Review Slider</title>
+    <style>
+        body{
+            max-width: 994px;
+            width: 100%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <section class="review-slider-ba">
+        <!-- Slide 1 -->
+        <div class="review-slide-ba active" id="slide-1">
+            <div class="review-body">
+                <!-- Review Stars -->
+                <div class="review-stars">
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                </div>
+                <!-- Review Body -->
+                <div class="review-body">
+                    <p class="review-body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                        nemo tempora reiciendis nulla quia, error, tempore asperiores illo modi sint commodi explicabo
+                        unde rem repudiandae, odit deserunt ullam laborum repellat! Doloribus totam assumenda dicta?
+                        Ducimus nobis quos dolores saepe beatae architecto! Magnam possimus quisquam, dolore non omnis
+                        sint ipsa tempora!</p>
+                    <h5>- MICHELLE 1</h5>
+                </div>
+                <div class="review-navagation">
+                    <span onclick="prevslide()"><i class="fa-solid fa-angle-left"></i></span>
+                    <span onclick="nextslide()"><i class="fa-solid fa-angle-right"></i></span>
+                </div>
+            </div>
+            <div class="review-img">
+                <img src="https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png" alt="Review Image">
+                <a href="#">Shop Comforter</a>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="review-slide-ba" id="slide-2">
+            <div class="review-body">
+                <!-- Review Stars -->
+                <div class="review-stars">
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                </div>
+                <!-- Review Body -->
+                <div class="review-body">
+                    <p class="review-body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                        nemo tempora reiciendis nulla quia, error, tempore asperiores illo modi sint commodi explicabo
+                        unde rem repudiandae, odit deserunt ullam laborum repellat! Doloribus totam assumenda dicta?
+                        Ducimus nobis quos dolores saepe beatae architecto! Magnam possimus quisquam, dolore non omnis
+                        sint ipsa tempora!</p>
+                    <h5>- MICHELLE 2</h5>
+                    <div class="review-navagation">
+                        <span onclick="prevslide()"><i class="fa-solid fa-angle-left"></i></span>
+                        <span onclick="nextslide()"><i class="fa-solid fa-angle-right"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="review-img">
+                <img src="https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png" alt="Review Image">
+                <a href="#">Shop Comforter</a>
+            </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="review-slide-ba" id="slide-3">
+            <div class="review-body">
+                <!-- Review Stars -->
+                <div class="review-stars">
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                </div>
+                <!-- Review Body -->
+                <div class="review-body">
+                    <p class="review-body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                        nemo tempora reiciendis nulla quia, error, tempore asperiores illo modi sint commodi explicabo
+                        unde rem repudiandae, odit deserunt ullam laborum repellat! Doloribus totam assumenda dicta?
+                        Ducimus nobis quos dolores saepe beatae architecto! Magnam possimus quisquam, dolore non omnis
+                        sint ipsa tempora!</p>
+                    <h5>- MICHELLE 3</h5>
+                    <div class="review-navagation">
+                        <span onclick="prevslide()"><i class="fa-solid fa-angle-left"></i></span>
+                        <span onclick="nextslide()"><i class="fa-solid fa-angle-right"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="review-img">
+                <img src="https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png" alt="Review Image">
+                <a href="#">Shop Comforter</a>
+            </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="review-slide-ba" id="slide-4">
+            <div class="review-body">
+                <!-- Review Stars -->
+                <div class="review-stars">
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                </div>
+                <!-- Review Body -->
+                <div class="review-body">
+                    <p class="review-body-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                        nemo tempora reiciendis nulla quia, error, tempore asperiores illo modi sint commodi explicabo
+                        unde rem repudiandae, odit deserunt ullam laborum repellat! Doloribus totam assumenda dicta?
+                        Ducimus nobis quos dolores saepe beatae architecto! Magnam possimus quisquam, dolore non omnis
+                        sint ipsa tempora!</p>
+                    <h5>- MICHELLE 4</h5>
+                    <div class="review-navagation">
+                        <span onclick="prevslide()"><i class="fa-solid fa-angle-left"></i></span>
+                        <span onclick="nextslide()"><i class="fa-solid fa-angle-right"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="review-img">
+                <img src="https://wtwp.com/wp-content/uploads/2015/06/placeholder-image.png" alt="Review Image">
+                <a href="#">Shop Comforter</a>
+            </div>
+        </div>
+    </section>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        .review-slider-ba{
+            padding: 20px 50px;
+            background-color: rgb(250, 243, 233);
+            font-family: 'Roboto', sans-serif;
+            color: rgb(75, 75, 75);
+        }
+        .review-slide-ba{
+            display: none;
+        }
+        .review-slide-ba.active{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .review-slide-ba.active > div{
+            flex-basis: 48%;
+            display: block;
+        }
+        .fa-solid.fa-star{
+            color: gray;
+        }
+        .fa-solid.fa-star.active{
+            color: goldenrod;
+        }
+        .review-img{
+            display: block;
+        }
+        .review-img > img{
+            width: 100%;
+        }
+        .review-img > a{
+            display: block;
+            color: rgb(75, 75, 75);
+            font-size: 16px;
+        }
+        .review-body-text{
+            font-size: 18px;
+        }
+        .review-navagation{
+            margin-top: 20px;
+            display: block;
+        }
+        .review-navagation > span{
+            padding: 10px;
+            cursor: pointer;
+        }
+        @media only screen and (max-width: 767px) {
+            .review-slide-ba.active{
+                flex-wrap: wrap-reverse;
+            }
+            .review-slide-ba.active > div{
+                flex-basis: 100%;
+                margin: 40px 0;
+            }
+            .review-slider-ba{
+                padding: 10px;
+            }
+        }
+    </style>
+
+    <script>
+        const reviews = document.getElementsByClassName("review-slide-ba");
+        let slide_count = 1;
+        function prevslide(){
+            if(slide_count === 1){
+                slide_count=4;
+            }
+            else {
+                slide_count-=1;
+            }
+            for(var x=1;x<=reviews.length; x++){
+                if(x === slide_count){
+                    reviews[slide_count-1].classList.add("active");
+                }
+                else{
+                    reviews[x-1].classList.remove("active");
+                }
+            }
+        }
+        function nextslide(){
+            if(slide_count === 4){
+                slide_count=1;
+            }
+            else {
+                slide_count+=1;
+            }
+            for(var x=1;x<=reviews.length; x++){
+                if(x === slide_count){
+                    reviews[slide_count-1].classList.add("active");
+                }
+                else{
+                    reviews[x-1].classList.remove("active");
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
